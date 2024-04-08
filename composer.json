@@ -1,0 +1,22 @@
+{
+    "name": "bchubbweb/phntm-starter",
+    "description": "A basic example of a site made with Phntm",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bchubbweb\\PhntmStarter\\": "src/",
+            "Pages\\": "pages/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Billy Chubb",
+            "email": "billy@bchubb.co.uk"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "bchubbweb/phntm": "^0.1.0"
+    }
+}
