@@ -8,11 +8,11 @@ class Layout extends LayoutTemplate
 {
     public function __construct() {
 
+        $this->registerAsset('/assets/style.css');
         $this->setContent(<<<HTML
         <html>
             <head>
                 <title>Phntm</title>
-                <script src="https://cdn.tailwindcss.com"></script>
                 <!-- head /-->
             </head>
             <body class="relative">
