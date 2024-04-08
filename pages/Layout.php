@@ -19,7 +19,7 @@ class Layout extends LayoutTemplate
                 <header class="py-8 px-4 max-w-3xl mx-auto w-full">
                     <h1 class="text-3xl font-bold">Phntm</h1>
                 </header>
-                <main class="py-8 px-4 max-w-3xl mx-auto w-full">
+                <main class="py-8 px-4 max-w-3xl mx-auto w-full flex flex-col item-stretch gap-2">
                     <!-- content /-->
                 </main>
                 <footer class="py-8 px-4 max-w-3xl mx-auto w-full">
@@ -28,10 +28,10 @@ class Layout extends LayoutTemplate
                             <a href="/">Home</a>
                         </li>
                         <li class="mr-4">
-                            <a href="/about">About</a>
+                            <a href="mailto: billy@bchubb.co.uk">Contact</a>
                         </li>
                         <li class="mr-4">
-                            <a href="/contact">Contact</a>
+                            <a href="https://github.com/bchubb-web/phntm">Github</a>
                         </li>
                     </ul>
                 </footer>

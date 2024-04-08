@@ -7,5 +7,5 @@ RewriteRule (.*) index.php [QSA,L]
 </filesMatch>
 
 <filesMatch ".(js|css)$">
-    Header set Cache-Control "no-cache"
+    Header set Cache-Control "must-revalidate, max-age=3600, public"
 </filesMatch>
